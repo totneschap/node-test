@@ -14,3 +14,7 @@ To push changes to heroku:
     git add .
     git commit -am 'My message'
     git push origin master
+
+If someone else has made changes
+
+    git pull
