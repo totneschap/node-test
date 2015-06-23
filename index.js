@@ -5,8 +5,8 @@ app.set('port', (process.env.PORT || 6001));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (request, response) => {
-  console.log('Running io.js');
-  response.send('Hello World!');
+  console.log('Fan face');
+  response.send('Hello Fan Face');
 });
 
 app.listen(app.get('port'), function() {
