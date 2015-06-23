@@ -1,6 +1,8 @@
 # node-test
 To install:
 
+    git clone https://github.com/totneschap/node-test.git
+    cd node-test
     npm install
     
 To run:
