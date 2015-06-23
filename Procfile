@@ -1,1 +1,1 @@
-web: node index.js
+web: iojs --harmony_arrow_functions index.js

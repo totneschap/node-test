@@ -10,7 +10,7 @@
     "express": "~4.9.x"
   },
   "engines": {
-    "iojs": "2.3.0"
+    "iojs": "2.3.x"
   },
   "repository": {
     "type": "git",
