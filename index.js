@@ -10,8 +10,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/projects', (request, response) => {
-  response.send('TODO - put projects here');
-
+  res.json({message: "done"});
 });
 
 app.listen(app.get('port'), function() {
