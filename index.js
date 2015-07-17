@@ -10,7 +10,7 @@ app.get('/', (request, response) => {
 });
 
 app.get('/projects', (request, response) => {
-  console.log('TODO - put projects here');
+  response.send('TODO - put projects here');
 
 });
 
