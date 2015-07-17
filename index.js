@@ -12,3 +12,5 @@ app.get('/', (request, response) => {
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
+
+app.get('projects', (request, response) => {console.log('TODO - put projects here');});
