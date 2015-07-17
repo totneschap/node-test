@@ -9,8 +9,13 @@ app.get('/', (request, response) => {
   response.send('Hello Fan Face');
 });
 
+app.get('/projects', (request, response) => {
+  console.log('TODO - put projects here');
+
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
 
-app.get('projects', (request, response) => {console.log('TODO - put projects here');});
+
